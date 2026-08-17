@@ -202,7 +202,7 @@ function Index() {
             </div>
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
-                V. Las leyes
+                VI. Las leyes
               </span>
               <h2 className="font-display mt-4 text-4xl text-gold-light md:text-5xl">
                 Estas son sus leyes
