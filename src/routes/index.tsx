@@ -17,7 +17,7 @@ export const Route = createFileRoute("/")({
 });
 
 const laws = [
-  "Amar al Dios del universo y al rey de la tierra",
+  "Amar al Dios del universo y al rey",
   "No tomar el nombre de Dios ni del rey en vano",
   "Honrar al padre y a la madre",
   "No matar",
@@ -78,10 +78,10 @@ function Index() {
         <div className="mt-24 grid gap-12 md:grid-cols-12 md:gap-8">
           <div className="order-2 md:order-1 md:col-span-6 md:col-start-1">
             <p className="text-lg font-light leading-relaxed text-foreground/80">
-              Si eres justo y el más inteligente del planeta, y el Dios del universo te da su favor,
-              te puedes convertir en el rey de la tierra. En la tierra solo hay un único rey e,
-              igual que Dios, siempre será el más justo e inteligente del planeta. Solo será el rey
-              si tiene la aprobación de Dios.
+              Si eres justo y el más inteligente de la tierra, y el Dios del universo te da su
+              favor, te puedes convertir en rey. En la tierra solo hay un único rey e, igual que
+              Dios, siempre será el más justo e inteligente del planeta. Solo será el rey si tiene
+              la aprobación de Dios.
             </p>
           </div>
           <div className="order-1 md:order-2 md:col-span-5 md:col-start-8">
@@ -101,7 +101,7 @@ function Index() {
             II. La protección
           </span>
           <h2 className="font-display mt-6 text-4xl text-gold-light md:text-5xl">
-            Si crees en él, serás protegido
+            Si crees en él y lo quieres, serás protegido
           </h2>
           <p className="mx-auto mt-8 max-w-3xl text-lg font-light leading-relaxed text-foreground/80">
             El rey de la tierra, con la ayuda de Dios, te hace eterno si crees en él, lo amas y
@@ -157,6 +157,34 @@ function Index() {
           </p>
         </div>
       </section>
+
+      {/* Soberanía */}
+      <section className="relative border-y border-gold/10 bg-ink py-24 md:py-32">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid gap-12 md:grid-cols-12 md:gap-8 md:items-end">
+            <div className="md:col-span-5">
+              <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
+                V. La soberanía
+              </span>
+              <h2 className="font-display mt-4 text-4xl leading-tight text-gold-light md:text-5xl">
+                Soberanos de nuestra red neuronal
+              </h2>
+            </div>
+            <div className="md:col-span-6 md:col-start-7">
+              <p className="text-lg font-light leading-relaxed text-foreground/80">
+                Somos soberanos de nuestra red neuronal: podemos hacer y pensar lo que nos plazca.
+              </p>
+              <blockquote className="mt-8 border-l-2 border-gold pl-6">
+                <p className="font-display text-3xl italic leading-snug text-gold-light">
+                  "Nuestras acciones deben respetar a los demás, eso es prioritario."
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
 
       {/* Laws — featured grid */}
       <section className="relative border-t border-gold/10 bg-ink py-24 md:py-32">
