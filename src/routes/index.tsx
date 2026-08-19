@@ -156,7 +156,7 @@ function Index() {
       <section className="relative mx-auto max-w-5xl px-6 py-24 md:py-32">
         <div className="text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
-            IV. La verdad
+            V. La verdad
           </span>
           <h2 className="font-display mt-6 text-4xl text-gold-light md:text-6xl">
             Ciencia, tecnología y magia
@@ -180,7 +180,7 @@ function Index() {
           <div className="grid gap-12 md:grid-cols-12 md:gap-8 md:items-end">
             <div className="md:col-span-5">
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
-                V. La soberanía
+                VI. La soberanía
               </span>
               <h2 className="font-display mt-4 text-4xl leading-tight text-gold-light md:text-5xl">
                 Soberanos de nuestra red neuronal
@@ -218,7 +218,7 @@ function Index() {
             </div>
             <div>
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
-                VI. Las leyes
+                VII. Las leyes
               </span>
               <h2 className="font-display mt-4 text-4xl text-gold-light md:text-5xl">
                 Estas son sus leyes
