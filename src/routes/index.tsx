@@ -136,6 +136,22 @@ function Index() {
         </div>
       </section>
 
+      {/* Divine parenthood — full-width band */}
+      <section className="relative border-y border-gold/10 bg-ink py-24 md:py-32">
+        <div className="mx-auto max-w-4xl px-6 text-center">
+          <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
+            IV. La paternidad divina
+          </span>
+          <h2 className="font-display mt-6 text-4xl text-gold-light md:text-5xl">
+            Todos somos hijos de Dios
+          </h2>
+          <p className="mx-auto mt-8 max-w-3xl text-lg font-light leading-relaxed text-foreground/80">
+            Todos somos hijos de Dios, ya que en el universo todo es suyo. Su autoridad abarca todo
+            lo creado, y en su dominio todos los seres compartimos la misma filiación sagrada.
+          </p>
+        </div>
+      </section>
+
       {/* Truth — centered manifesto */}
       <section className="relative mx-auto max-w-5xl px-6 py-24 md:py-32">
         <div className="text-center">
